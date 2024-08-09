@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+   .active{
+    @apply before:content-[""] before:absolute before:bottom-[-10px] before:left-0 before:w-full before:h-[3px] before:bg-gradient-to-r before:from-color2 before:to-color5 before:rounded-[5px]
+   }
